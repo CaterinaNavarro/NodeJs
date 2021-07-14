@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaterinaNavarro/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaterinaNavarro/nodejs/issues"
+  },
+  "homepage": "https://github.com/CaterinaNavarro/nodejs#readme"
+}
