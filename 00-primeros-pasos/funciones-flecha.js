@@ -64,8 +64,27 @@ let multiplication = (num1, num2) =>
     return num1 * num2;
 }
 
+let isPrime = num => 
+{
+    if (num === undefined )
+    {
+        throw new Error("Argument is missing.");
+    }
+
+    if (typeof(num) !== 'number')
+    {
+        throw new Error("Argument is not a number.");
+    }
+
+    for (let i = 2; i < num; i++) if (num % i == 0) return false;
+    
+    return num > 1;
+
+}
+
 //Tests
 console.log(sum(10,2));
 console.log(subtraction(8,2));
 console.log(division(18,6));
 console.log(multiplication(5,5));
+console.log(isPrime(11));
