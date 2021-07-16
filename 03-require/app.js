@@ -1,8 +1,6 @@
 // Import the filesystem module
 const fs = require('fs'); 
 
-const CONSTANT_VALUE = 5;
-
 // Generate number table
 const generateTable = (number) => 
 {
@@ -20,7 +18,7 @@ const generateTable = (number) =>
 
     for (let i= 1; i <= 10 ; i++) 
     {
-        strTable = strTable.concat(`${CONSTANT_VALUE} x ${i} = ${CONSTANT_VALUE * i} \n`);
+        strTable = strTable.concat(`${number} x ${i} = ${number * i} \n`);
     }
 
     return strTable;
@@ -54,4 +52,4 @@ const writeTableFile = (number) =>
    
 }
 
-writeTableFile(CONSTANT_VALUE);
+writeTableFile(10);
