@@ -1,5 +1,3 @@
-const CONSTANT_VALUE = 5;
-
 const generateTable = (number) =>
 {
     if (number === undefined)
@@ -14,8 +12,8 @@ const generateTable = (number) =>
     
     for (let i= 1; i <= 10 ; i++)
     {
-        console.log(`${CONSTANT_VALUE} x ${i} = ${CONSTANT_VALUE * i}`);
+        console.log(`${number} x ${i} = ${number * i}`);
     }
 }
 
-generateTable(CONSTANT_VALUE);
+generateTable(5);
