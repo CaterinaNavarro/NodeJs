@@ -1,5 +1,5 @@
-// Import the filesystem module
-const fs_table = require('./fs-module.js');
+// Import fs-table-module 
+const fs_table = require('./fs-table-module.js');
 
 fs_table.writeTableFilePromise(5)
     .then((res) =>
