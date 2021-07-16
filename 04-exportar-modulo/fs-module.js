@@ -1,4 +1,3 @@
-// Import the filesystem module
 const fs = require('fs'); 
 
 // Generate number table
@@ -26,7 +25,7 @@ const generateTable = (number) =>
 }
 
 // Write a file with the table of numbers
-const writeTableFile = (number) =>
+const writeTableFilePromise = (number) =>
 {
     if (number === undefined)
     {
@@ -40,16 +39,15 @@ const writeTableFile = (number) =>
     
     const data = generateTable(number);
     
-    fs.writeFileSync(`tabla-${number}`, data, (error) =>
+    return new Promise((resolve, reject) =>
     {
-        if (error)
+        fs.writeFile(`tabla-${number}`, data, (err) =>
         {
-            return console.log(error);
-        }
+            if (err) reject(err);
+            resolve(data);
 
-        console.log(data);
-    })
-   
+        });
+    });
 }
 
-writeTableFile(5);
+exports.writeTableFilePromise = writeTableFilePromise;
