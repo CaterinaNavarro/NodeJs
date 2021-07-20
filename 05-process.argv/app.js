@@ -31,7 +31,3 @@ else
     console.log(`Invalid operation ${typeof arg === "undefined" ? "there is no argument with that name" : 
                                                                 "argument must be a number."}`);                
 }
-
-
-
-

@@ -50,4 +50,5 @@ const writeTableFilePromise = (number) =>
     });
 }
 
+exports.generateTable = generateTable;
 exports.writeTableFilePromise = writeTableFilePromise;
