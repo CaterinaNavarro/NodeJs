@@ -1,7 +1,3 @@
-const colors = require('colors'); //Import colors package
-const fs_table = require('../04-exportar-modulo/fs-table-module.js'); //import module for create table file
-
-//Set optional argument and checks values
 const argv = require('yargs')
         .options({
             'b' : {
@@ -33,16 +29,4 @@ const argv = require('yargs')
         })
         .argv
 
-//Prints the table and generates the file
-fs_table.writeTableFilePromise(argv.base)
-
-    .then((res) =>
-    {
-        console.log(res.rainbow);
-    })
-    .catch((err) =>
-    {
-        throw err;
-    });
-
-    
+exports.argv = argv;

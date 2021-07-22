@@ -2,7 +2,7 @@
 const fs_table = require('../04-exportar-modulo/fs-table-module.js');
 
 //import colors package
-var colors = require('colors');
+const colors = require('colors');
 
 let base, title, first;
 
