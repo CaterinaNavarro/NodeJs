@@ -7,13 +7,15 @@ const main = async () => {
 
   try {
     
+    let opt = '';
     console.log('Hola mundo'.cyan);
 
-    let opt = await showMenu();
-    console.log({opt});
+    while (opt !== '0') 
+    {
+      opt = await showMenu();
+      await pause();
+    }
 
-    //await pause();
-  
     console.log('\nBye bye! =)'.rainbow.italic);
 
   }
