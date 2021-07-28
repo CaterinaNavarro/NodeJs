@@ -27,7 +27,7 @@ const main = async () => {
           console.log('Tarea creada!'.rainbow)
           break;
         case 2:
-          const arrTasks = tasks.listTasks();
+          const arrTasks = tasks.getArrList();
           console.log(arrTasks);
           break;
 

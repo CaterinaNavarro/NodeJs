@@ -1,8 +1,8 @@
 {
   "name": "nodejs",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "",
-  "main": "Modulo03/09-lista-tareas-logica-opciones/app.js",
+  "main": "Modulo03/10-lista-tareas-logica-opciones/app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
