@@ -19,4 +19,8 @@ export default class Tasks {
         return this.list;
     }
 
+    getArrList = () => {
+        const arrList = Object.entries(this.list).map(task => task[1]);
+        return arrList;
+    }
 }
