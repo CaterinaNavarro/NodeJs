@@ -1,0 +1,22 @@
+[
+    {
+        "id": "38c519ec-6429-495a-90ac-1caa63453c0c",
+        "desc": "Comprar prepizzas",
+        "dateCompleted": null
+    },
+    {
+        "id": "6d08099a-f120-466b-b97f-442ce56558a1",
+        "desc": "Comprar cebolla, tomate y ajo",
+        "dateCompleted": null
+    },
+    {
+        "id": "b2196b0e-80c2-410c-bc5e-91eab5a0be7b",
+        "desc": "Comprar pimienta, oregano y jugo",
+        "dateCompleted": null
+    },
+    {
+        "id": "e899aab2-0e75-4628-9b6f-5cd419d519be",
+        "desc": "Llegar a casa y hacer la pizza",
+        "dateCompleted": null
+    }
+]

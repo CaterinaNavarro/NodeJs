@@ -2,7 +2,7 @@
   "name": "nodejs",
   "version": "1.9.0",
   "description": "",
-  "main": "Modulo03/10-lista-tareas-logica-opciones/app.js",
+  "main": "Modulo03/11-lista-tareas-db/app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
