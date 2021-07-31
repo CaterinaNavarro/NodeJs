@@ -1,6 +1,6 @@
 {
   "name": "nodejs",
-  "version": "1.9.0",
+  "version": "2.1.0",
   "description": "",
   "main": "./Modulo03/12-lista-tareas-db-leer/app.js",
   "type": "module",
