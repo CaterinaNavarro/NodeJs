@@ -1,0 +1,27 @@
+[
+    {
+        "id": "a274bab1-82b8-490c-9b65-0887e7ea0b52",
+        "desc": "Recolectar las piedras",
+        "dateCompleted": null
+    },
+    {
+        "id": "ae7d5fa2-3d88-447a-bef6-c444771abd8f",
+        "desc": "Alma",
+        "dateCompleted": null
+    },
+    {
+        "id": "fbcd8eef-9209-47b9-a9e1-d4fd57b8b304",
+        "desc": "Poder",
+        "dateCompleted": null
+    },
+    {
+        "id": "398c227b-9786-4761-97a5-97b0ab6c5c65",
+        "desc": "Realidad",
+        "dateCompleted": null
+    },
+    {
+        "id": "f8171827-7f93-4660-8a7f-f9b257a021c6",
+        "desc": "Tiempo",
+        "dateCompleted": null
+    }
+]
