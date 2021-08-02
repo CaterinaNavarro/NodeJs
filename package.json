@@ -2,10 +2,10 @@
   "name": "nodejs",
   "version": "2.3.0",
   "description": "",
-  "main": "./Modulo03/12-lista-tareas-db-leer/app.js",
+  "main": "./Modulo04/02-jest/app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6"
   }
 }
